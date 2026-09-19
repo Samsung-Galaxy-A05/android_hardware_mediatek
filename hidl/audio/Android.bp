@@ -26,13 +26,5 @@ cc_binary {
         "liblog",
         "libutils",
         "libhardware",
-        "android.hardware.soundtrigger3-impl",
-        "android.hardware.soundtrigger3-V1-ndk",
     ],
-}
-
-cc_library_shared {
-    name: "android.hardware.soundtrigger3-impl",
-    relative_install_path: "hw",
-    soc_specific: true,
 }
