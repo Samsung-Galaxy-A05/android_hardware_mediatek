@@ -1,6 +1,5 @@
 /*
  * SPDX-FileCopyrightText: The Android Open Source Project
- * SPDX-FileCopyrightText: The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -125,7 +124,7 @@ int main(int /* argc */, char* /* argv */[]) {
 
     const std::vector<std::pair<std::string,std::string>> optionalInterfaceSharedLibs = {
         {
-            "android.hardware.bluetooth.audio-impl-mediatek",
+            "android.hardware.bluetooth.audio-impl",
             "createIBluetoothAudioProviderFactory",
         },
         {
